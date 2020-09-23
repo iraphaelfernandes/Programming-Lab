@@ -1,0 +1,11 @@
+{
+  "[c]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+  "files.associations": {
+    "algorithm": "c",
+    "locale": "c"
+  }
+}
