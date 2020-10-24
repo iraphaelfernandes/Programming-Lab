@@ -1,0 +1,10 @@
+%c =>	char (um único carácter)
+%i ou %d => int (número inteiro)
+%o => int (número octal)
+%x ou %X => int (número hexadecimal)
+%u => unsigned int (número inteiro sem sinal)
+%s => char (escreve string terminado com \0)
+%f => double ou float (número real com parte decimal)
+%e ou %E => double ou float (número real escrito em notação científica)
+%g ou %G => double ou float (equive
+

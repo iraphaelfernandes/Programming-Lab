@@ -1,0 +1,10 @@
+{
+  "debug.showInlineBreakpointCandidates": false,
+  "cSpell.ignoreWords": [
+    "palavra"
+  ],
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    "cmath": "c"
+  }
+}

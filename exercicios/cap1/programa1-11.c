@@ -3,6 +3,9 @@
 #define DENTRO 1
 #define FORA 0
 
+// Conta linhas (nl), palavras (np) e caracteres (nc) de entrada
+// c assume o valor de getchar()
+
 int main(void)
 {
   int c, nl, np, nc;
@@ -18,19 +21,16 @@ int main(void)
     {
       ++nl;
     }
-
     if (c == ' ' || c == '\n' || c == '\t')
     {
       estado = FORA;
     }
-    else if (estado == FORA)
-    {
-      estado = DENTRO;
-      ++np;
-    }
-  }
 
-  printf("Novas linas: %d\nNovas palavras: %d\nCaracteres: %d\n", nl, np, nc);
+    else if (estado == FORA) {
+      estado = DENTRO;
+      ++np;   
+      }
+  }
 
   return 0;
 }

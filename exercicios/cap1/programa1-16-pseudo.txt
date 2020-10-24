@@ -1,0 +1,43 @@
+int main(void) {
+	
+	while((tam = lelinha(linha, MAXLINE) > 0){	
+	enquanto o tamanho da linha for maior que 0
+	ele verifica se o tamanho da linha de entrada é maior que o tamanho máximo
+	se for maior, o máximo passa a ser a última entrada
+	}
+	
+	if(max > 0){
+	imprime a maior linha
+	}
+	
+	
+return 0;
+} //final de main
+
+
+function lelinha( char s[], int lim) {
+	
+	int c, i;
+	for(i = 0; i < lim -1 && (c = getchar()) != '\n' && c != EOF; ++i){
+		coloca cada caracter lido dentro da posição i do vetor s
+	}
+	if(c == '\n'){
+		se c for igual ao caracter \n, que é final de linha,
+		coloca esse caracter na posição i e incr i
+	}
+	s[i] = '\0';
+	
+	retun i; // i representa o tamanho da linha
+}
+
+function void copia(char para[], char de[]) {
+	
+	int i = 0;
+	while((para[i] = de[i]) != '\0'){
+		++i;
+	}
+
+}
+
+
+
