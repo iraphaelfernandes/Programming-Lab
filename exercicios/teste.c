@@ -1,12 +1,24 @@
 #include <stdio.h>
+#include <string.h>
 #include <math.h>
+#include <ctype.h>
 
-int main(void) {
+#define MAXLINE 100
 
-  int a = 26;
-  int c = sqrt(a);
+int getln(char line[], int lim);
+int htoi(char hex[]);
 
-  printf("%d\n", c);
+//---------------------------------
+int main(void){
+    
+    char p = 8;
+    
+    int a = isdigit(p);
+    
+    printf("%d\n", a);
 
-  return 0;
+    return 0;
 }
+
+//---------------------------------
+
